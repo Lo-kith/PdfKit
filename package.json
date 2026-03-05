@@ -1,0 +1,7 @@
+{
+  "name": "pdfbuilder",
+  "version": "1.0.0",
+  "description": "Lightweight JavaScript PDF generation library",
+  "main": "index.js",
+  "license": "MIT"
+}
