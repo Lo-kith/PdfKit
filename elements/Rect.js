@@ -1,0 +1,19 @@
+class Rect {
+
+  constructor(x,y,w,h){
+    this.x=x
+    this.y=y
+    this.w=w
+    this.h=h
+  }
+
+  render(){
+return `
+${this.x} ${this.y} ${this.w} ${this.h} re
+S
+`
+  }
+
+}
+
+export default Rect
