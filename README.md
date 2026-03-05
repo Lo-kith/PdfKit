@@ -103,3 +103,76 @@ pdf
 ],50,580)
 
 .download("example.pdf")# PdfKit
+
+
+📄 Output
+
+The above example will generate a PDF with:
+
+Text
+
+Shapes
+
+Tables
+
+Multiple elements on a page
+
+🔧 API
+addPage()
+
+Creates a new page.
+
+pdf.addPage()
+text()
+
+Add text to the page.
+
+pdf.text("Hello World",50,700)
+rect()
+
+Draw a rectangle.
+
+pdf.rect(50,650,200,100)
+line()
+
+Draw a line.
+
+pdf.line(50,600,300,600)
+table()
+
+Create a table.
+
+pdf.table(data,startX,startY)
+download()
+
+Download the generated PDF.
+
+pdf.download("file.pdf")
+
+Future Improvements
+
+Planned features include:
+
+SVG rendering
+
+Advanced text layout
+
+True font embedding
+
+PDF compression
+
+Node.js file streaming
+
+Layout engine
+
+Contributing
+
+Contributions are welcome!
+
+If you'd like to improve PdfBuilder:
+
+Fork the repository
+
+Create a new branch
+
+Submit a pull request
