@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>LokiPDF Demo</title>
+</head>
+
+<body>
+
+<button id="btn">Generate PDF</button>
+
+<script type="module">
+
+import PDF from "./index.js"
+
+document.getElementById("btn").addEventListener("click", () => {
+
+const pdf = new PDF()
+
+pdf
+.addPage()
+.fontSize(24)
+.text("Hello Loki",50,750)
+
+.rect(50,650,200,100)
+
+.table([
+["Name","Role"],
+["Loki","Developer"],
+["Aurthor","Engineer"]
+],50,600)
+
+.download("demo.pdf")
+
+})
+
+</script>
+
+</body>
+</html>

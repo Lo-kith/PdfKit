@@ -1,4 +1,4 @@
-import Page from "./Page.js"
+import Page from "./ Page.js"
 import Renderer from "./Renderer.js"
 import Text from "../elements/Text.js"
 import Rect from "../elements/Rect.js"
