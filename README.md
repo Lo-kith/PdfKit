@@ -74,6 +74,8 @@ FontManager.js | Manages fonts |
 
 Clone the repository:
 
+https://github.com/Lo-kith/PdfKit.git
+
 Or copy the folder into your project.
 
 ---
